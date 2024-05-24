@@ -1,6 +1,12 @@
 # Bank
 Object Oriented Programming: Designing Banking System. 
 
+
+We'll create a base Transaction class, which will be extended by Deposit, Withdrawal, and OpenAccount classes.
+A BankTeller will be defined by a unique ID, while customers will be represented through the BankAccount class, which includes their ID and balance.
+The central bank, or headquarters, will consist of multiple BankBranch objects, and there will be a single BankSystem to centrally manage customer accounts and transactions.
+Customers may conduct transactions at various branches, so their information must be centrally stored within the BankSystem.
+
 #DEMO
 
 
