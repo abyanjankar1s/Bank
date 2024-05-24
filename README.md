@@ -4,7 +4,7 @@ Object Oriented Programming: Designing Banking System.
 #DEMO
 
 
-class Main {
+    class Main {
     public static void main(String[] args){
         BankSystem bankSystem = new BankSystem(new ArrayList<BankAccount>(), new ArrayList<Transaction>());
         Bank bank = new Bank(new ArrayList<BankBranch>(), bankSystem, 10000);
@@ -26,12 +26,11 @@ class Main {
         bank.printTransaction();
 
         Teller 1 opened account 0
-//Teller 2 opened account 1
-//Teller 1 deposited 10000 to account number 0
-//Teller 2 deposited 20000 to account number 1
-//Teller 1 withdrew 30 from account number 0
-
+    //Teller 2 opened account 1
+    //Teller 1 deposited 10000 to account number 0
+    //Teller 2 deposited 20000 to account number 1
+    //Teller 1 withdrew 30 from account number 0
 
 
     }
-}
+    }
